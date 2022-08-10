@@ -73,7 +73,6 @@ x = 0
 if __name__ == '__main__':
     start = time.time()
     while x < 4:
-            time.sleep(0.1)
             pid = get_pid()
             p = psutil.Process(pid[0])
             # Checking if program is in list
